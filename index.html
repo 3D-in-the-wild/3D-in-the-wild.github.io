@@ -118,13 +118,17 @@
       color: #222;
     }
 
-    .speaker-photo {
+    .image img.speaker-photo {
       display: block;
       width: 128px;
       height: 128px;
       margin: 0 auto;
       object-fit: cover;
       object-position: center;
+    }
+
+    #Organizers .card-image {
+      padding-top: 1rem;
     }
 
     #schedule .content {
@@ -366,7 +370,9 @@
               </p>
             </h1>
             <h1 class="is-is-5" style="color:#C4E0C9; text-shadow: 1px 1px 3px rgba(0,0,0,0.65)"><b>in conjunction with ECCV 2026, Malmö, Sweden.</b></h1>
-            <b style="color:#C4E0C9; text-shadow: 1px 1px 3px rgba(0,0,0,0.65)">Time: September 9th, 2026, 13:30 - 17:15 CEST.</b>
+            <b style="color:#C4E0C9; text-shadow: 1px 1px 3px rgba(0,0,0,0.65)">Room: Malmömässan B.</b>
+            <br>
+            <b style="color:#C4E0C9; text-shadow: 1px 1px 3px rgba(0,0,0,0.65)">Time: September 9th, 2026, 13:30 - 17:00 CEST.</b>
             <br>
           </div>
         </div>
@@ -429,24 +435,24 @@
       <section class="section" id="Invited Speakers">
         <div class="container is-max-desktop">
           <div class="container is-max-desktop content">
-            <h2 class="title" id="speakers">Invited Speakers (More to come...)</h2>
+            <h2 class="title" id="speakers">Invited Speakers</h2>
 
-              <a href="https://www.cs.cmu.edu/~katef/" target="_blank">
+              <a href="https://yulunalexliu.github.io/" target="_blank">
                 <div class="card">
                   <div class="card-content">
                     <div class="columns is-vcentered">
                       <div class="column is-one-quarter">
                         <figure class="image is-128x128">
-                          <img class="is-rounded speaker-photo" src="./data/katerina-fragkiadaki.png" alt="Katerina Fragkiadaki">
+                          <img class="is-rounded speaker-photo" src="./data/yulun-liu.jpg" alt="Yu-Lun Liu">
                         </figure>
                       </div>
                       <div class="column">
-                        <p class="title is-4">Katerina Fragkiadaki</p>
-                        <p class="subtitle is-6">Carnegie Mellon University</p>
+                        <p class="title is-4">Yu-Lun Liu</p>
+                        <p class="subtitle is-6">National Yang Ming Chiao Tung University</p>
                       </div>
                     </div>
                     <div class="content">
-Katerina Fragkiadaki is the JPMorgan Chase Associate Professor of Computer Science in Carnegie Mellon University's Machine Learning Department. Her work connects computer vision, machine learning, language, and robotics, with an emphasis on 3D-aware perception, embodied agents, world models, and generative simulation for robot learning.
+                    Yu-Lun Liu is an Associate Professor of Computer Science at National Yang Ming Chiao Tung University. His research spans image and video processing, computer vision, and computational photography, combining machine learning with geometric and domain-specific insights.
                     </div>
                   </div>
                 </div>
@@ -513,6 +519,28 @@ Katerina Fragkiadaki is the JPMorgan Chase Associate Professor of Computer Scien
                     </div>
                     <div class="content">
                     Georgios Pavlakos is an Assistant Professor of Computer Science at UT Austin. His research spans computer vision, machine learning, and robotics, with a focus on recovering people and human-object interactions in 3D and 4D from images and videos, including challenging in-the-wild observations.
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+
+              <a href="https://ruohangao.github.io/" target="_blank">
+                <div class="card">
+                  <div class="card-content">
+                    <div class="columns is-vcentered">
+                      <div class="column is-one-quarter">
+                        <figure class="image is-128x128">
+                          <img class="is-rounded speaker-photo" src="./data/ruohan-gao.jpg" alt="Ruohan Gao" style="object-position: center top;">
+                        </figure>
+                      </div>
+                      <div class="column">
+                        <p class="title is-4">Ruohan Gao</p>
+                        <p class="subtitle is-6">University of Maryland, College Park</p>
+                      </div>
+                    </div>
+                    <div class="content">
+                    Ruohan Gao is an Assistant Professor of Computer Science at the University of Maryland, College Park, where he leads the Multisensory Machine Intelligence Lab. His research develops systems that integrate sight, sound, and touch to perceive, understand, and interact with complex multisensory environments.
                     </div>
                   </div>
                 </div>
@@ -635,75 +663,32 @@ Katerina Fragkiadaki is the JPMorgan Chase Associate Professor of Computer Scien
         </div>
       </section>
 
-      <section class="section" id="Spotlight Speakers" style="display:none" aria-hidden="true">
+      <section class="section" id="Spotlight Speakers">
         <div class="container is-max-desktop">
           <div class="container is-max-desktop content">
-            <h2 class="title" id="spotlight-speakers">Spotlight Speakers</h2>
+            <h2 class="title" id="spotlight-speakers">Spotlight Speaker</h2>
 
-
-
-              <a href="https://hwjiang1510.github.io/" target="_blank">
+              <a href="https://jarrome.github.io/" target="_blank">
                 <div class="card">
                   <div class="card-content">
                     <div class="columns is-vcentered">
                       <div class="column is-one-quarter">
                         <figure class="image is-128x128">
-                          <img class="is-rounded" src="./data/hanwen.jpeg">
+                          <img class="is-rounded speaker-photo" src="./data/yijun-yuan.jpeg" alt="Yijun Yuan" style="object-position: center 20%;">
                         </figure>
                       </div>
                       <div class="column">
-                        <p class="title is-4">Hanwen Jiang</p>
-                        <p class="subtitle is-6">Adobe Research</p>
+                        <p class="title is-4">Yijun Yuan</p>
+                        <p class="subtitle is-6">Tsinghua University</p>
                       </div>
                     </div>
                     <div class="content">
-                    Hanwen Jiang is a Research Scientist at Adobe Research. He is interested in building scalable learning paradigms and models for spatially grounded intelligence.                  </div>
+                    Yijun Yuan is a postdoctoral researcher at the Institute for Interdisciplinary Information Sciences, Tsinghua University, working with Hang Zhao. He received his Ph.D. in Robotics from the University of Würzburg, and his research focuses on SLAM, spatial foundation models, and world models for robotics.
+                    </div>
                   </div>
                 </div>
               </a>
-            
-              <a href="https://chih-hao-lin.github.io/" target="_blank">
-                <div class="card">
-                  <div class="card-content">
-                    <div class="columns is-vcentered">
-                      <div class="column is-one-quarter">
-                        <figure class="image is-128x128">
-                          <img class="is-rounded" src="./data/chih-hao.png">
-                        </figure>
-                      </div>
-                      <div class="column">
-                        <p class="title is-4">Chih-Hao Lin</p>
-                        <p class="subtitle is-6">UIUC</p>
-                      </div>
-                    </div>
-                    <div class="content">
-                    Chih-Hao Lin is a PhD student at the University of Illinois Urbana-Champaign. His research interests lie at the intersection of 3D vision, neural rendering, and simulation.               
-            </div>
-            </div>
-                </div>
-              </a>
 
-<!--         <a href="https://muelea.github.io/" target="_blank">
-                <div class="card">
-                  <div class="card-content">
-                    <div class="columns is-vcentered">
-                      <div class="column is-one-quarter">
-                        <figure class="image is-128x128">
-                          <img class="is-rounded" src="./data/lea.jpg">
-                        </figure>
-                      </div>
-                      <div class="column">
-                        <p class="title is-4">Lea Müller</p>
-                        <p class="subtitle is-6">UC Berkeley</p>
-                      </div>
-                    </div>
-                    <div class="content">
-            Lea Müller is a Postdoctoral Researcher at University of California, Berkeley. She specializes in understanding and reconstructing physical contact humans make with themselves and with other people during interaction.               
-            </div>
-        </div>
-        </div>          
-              </a> -->
-                          
               <br>
           </div>
         </div>
@@ -711,7 +696,7 @@ Katerina Fragkiadaki is the JPMorgan Chase Associate Professor of Computer Scien
 
       <section class="section" id="schedule">
         <div class="container is-max-desktop content">
-        <h2 class="title">Schedule (Tentative)</h2>
+        <h2 class="title">Schedule</h2>
         <div class="content has-text-justified">
 
           <table class="table table-striped">
@@ -729,12 +714,12 @@ Katerina Fragkiadaki is the JPMorgan Chase Associate Professor of Computer Scien
               <tr>
                 <td>14:05 - 14:35</td>
                 <td style="background-color:#e4ffc2">Invited Talk 2 <b></b></td>
-                <td>Katerina Fragkiadaki (Carnegie Mellon University)</td>
+                <td>Sagie Benaim (Hebrew University of Jerusalem)</td>
               </tr>
               <tr>
                 <td>14:35 - 14:50</td>
                 <td style="background-color:#cae1ff">Spotlight Presentation</td>
-                <td>TBA</td>
+                <td>Yijun Yuan (Tsinghua University)</td>
               </tr>
               <tr>
                 <td>14:50 - 15:30</td>
@@ -742,24 +727,19 @@ Katerina Fragkiadaki is the JPMorgan Chase Associate Professor of Computer Scien
                 <td></td>
               </tr>
               <tr>
-                <td>15:30 - 15:45</td>
-                <td style="background-color:#cae1ff">Spotlight Presentation</td>
-                <td>TBA</td>
-              </tr>
-              <tr>
-                <td>15:45 - 16:15</td>
+                <td>15:30 - 16:00</td>
                 <td style="background-color:#e4ffc2">Invited Talk 3 <b></b></td>
-                <td>Sagie Benaim (Hebrew University of Jerusalem)</td>
-              </tr>
-              <tr>
-                <td>16:15 - 16:45</td>
-                <td style="background-color:#e4ffc2">Invited Talk 4 <b></b></td>
                 <td>Georgios Pavlakos (UT Austin)</td>
               </tr>
               <tr>
-                <td>16:45 - 17:15</td>
+                <td>16:00 - 16:30</td>
+                <td style="background-color:#e4ffc2">Invited Talk 4 <b></b></td>
+                <td>Yu-Lun Liu (National Yang Ming Chiao Tung University)</td>
+              </tr>
+              <tr>
+                <td>16:30 - 17:00</td>
                 <td style="background-color:#e4ffc2">Invited Talk 5 <b></b></td>
-                <td>TBA</td>
+                <td>Ruohan Gao (University of Maryland, College Park)</td>
               </tr>
             </tbody>
           </table>
