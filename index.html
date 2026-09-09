@@ -131,6 +131,21 @@
       padding-top: 1rem;
     }
 
+    #Organizers .organizer-photo-frame {
+      aspect-ratio: 1 / 1;
+      overflow: hidden;
+      border-radius: 50%;
+    }
+
+    #Organizers .organizer-photo-frame img {
+      display: block;
+      width: 150%;
+      max-width: none;
+      height: auto;
+      object-fit: cover;
+      transform: translate(-30%, -5%);
+    }
+
     #schedule .content {
       overflow-x: auto;
     }
@@ -802,7 +817,7 @@ Posters are <b>non-archival</b> and will not appear in proceedings. We will foll
               <h2 class="title" id="organizers">Organizers</h2>
 
               <div class="columns is-centered is-variable is-0">
-                <div class="column is-one-quarter">
+                <div class="column is-one-fifth">
                   <a href="https://people.csail.mit.edu/weichium/">
                     <div class="card">
                       <div class="card-image">
@@ -821,7 +836,7 @@ Posters are <b>non-archival</b> and will not appear in proceedings. We will foll
                     </div>
                   </a>
                 </div>
-                <div class="column is-one-quarter">
+                <div class="column is-one-fifth">
                   <a href="https://shenlong.web.illinois.edu/">
                     <div class="card">
                       <div class="card-image">
@@ -841,7 +856,7 @@ Posters are <b>non-archival</b> and will not appear in proceedings. We will foll
                   </a>
                 </div>
                 <!-- Yufei Ye organizer card temporarily hidden
-                <div class="column is-one-quarter">
+                <div class="column is-one-fifth">
                   <a href="https://judyye.github.io/">
                     <div class="card">
                       <div class="card-image">
@@ -861,7 +876,7 @@ Posters are <b>non-archival</b> and will not appear in proceedings. We will foll
                   </a>
                 </div>
                 -->
-                <div class="column is-one-quarter">
+                <div class="column is-one-fifth">
                   <a href="https://jinlinyi.github.io/">
                     <div class="card">
                       <div class="card-image">
@@ -880,11 +895,7 @@ Posters are <b>non-archival</b> and will not appear in proceedings. We will foll
                     </div>
                   </a>
                 </div>
-              </div>
-
-              <div class="columns is-centered is-variable is-0">
-
-                <div class="column is-one-quarter">
+                <div class="column is-one-fifth">
                   <a href="https://lingjie0206.github.io/">
                     <div class="card">
                       <div class="card-image">
@@ -904,19 +915,19 @@ Posters are <b>non-archival</b> and will not appear in proceedings. We will foll
                   </a>
                 </div>
 
-                <div class="column is-one-quarter">
-                  <a href="https://muelea.github.io/">
+                <div class="column is-one-fifth">
+                  <a href="https://jianghanxiao.github.io/">
                     <div class="card">
                       <div class="card-image">
-                        <figure class="image">
-                          <img class="is-rounded" src="./data/lea.jpg" alt="Placeholder image">
+                        <figure class="image organizer-photo-frame">
+                          <img src="./data/hanxiao-jiang.jpg" alt="Hanxiao Jiang">
                         </figure>
                       </div>
                       <div class="card-content">
                         <div class="media">
                           <div class="media-content" style="overflow-x: unset;">
-                            <p class="title is-7 is-spaced">Lea Wilken</p>
-                            <p class="subtitle is-7">Meta</p>
+                            <p class="title is-7 is-spaced">Hanxiao Jiang</p>
+                            <p class="subtitle is-7">Columbia</p>
                           </div>
                         </div>
                       </div>
@@ -925,7 +936,10 @@ Posters are <b>non-archival</b> and will not appear in proceedings. We will foll
                 </div>
 
 
-                <div class="column is-one-quarter">
+              </div>
+
+              <div class="columns is-centered is-variable is-0">
+                <div class="column is-one-fifth">
                   <a href="https://paschalidoud.github.io/">
                     <div class="card">
                       <div class="card-image">
@@ -944,12 +958,7 @@ Posters are <b>non-archival</b> and will not appear in proceedings. We will foll
                     </div>
                   </a>
                 </div>
-              </div>
-
-              <div class="columns is-centered is-variable is-0">
-
-
-                <div class="column is-one-quarter">
+                <div class="column is-one-fifth">
                   <a href="https://www.cs.utexas.edu/~huangqx/">
                     <div class="card">
                       <div class="card-image">
@@ -969,7 +978,7 @@ Posters are <b>non-archival</b> and will not appear in proceedings. We will foll
                   </a>
                 </div>
 
-                <div class="column is-one-quarter">
+                <div class="column is-one-fifth">
                   <a href="https://shubhtuls.github.io/">
                     <div class="card">
                       <div class="card-image">
@@ -991,7 +1000,7 @@ Posters are <b>non-archival</b> and will not appear in proceedings. We will foll
 
 
 
-                <div class="column is-one-quarter">
+                <div class="column is-one-fifth">
                   <a href="https://cs.nyu.edu/~fouhey/">
                     <div class="card">
                       <div class="card-image">
@@ -1004,6 +1013,25 @@ Posters are <b>non-archival</b> and will not appear in proceedings. We will foll
                           <div class="media-content" style="overflow-x: unset;">
                             <p class="title is-7 is-spaced">David Fouhey</p>
                             <p class="subtitle is-7">NYU</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="column is-one-fifth">
+                  <a href="https://muelea.github.io/">
+                    <div class="card">
+                      <div class="card-image">
+                        <figure class="image">
+                          <img class="is-rounded" src="./data/lea.jpg" alt="Placeholder image">
+                        </figure>
+                      </div>
+                      <div class="card-content">
+                        <div class="media">
+                          <div class="media-content" style="overflow-x: unset;">
+                            <p class="title is-7 is-spaced">Lea Wilken</p>
+                            <p class="subtitle is-7">Meta</p>
                           </div>
                         </div>
                       </div>
